@@ -19,7 +19,7 @@ h2{
 
 h3 {
     font-size: large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 63, 4);
+    color: #ff3f04;
 }
 
 #topnav {
@@ -45,3 +45,25 @@ ul {
 td {
     font-family: monospace;
 }
+#navbar{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #805142;
+  }
+  
+  li{
+    float: left;
+  }
+  
+  li a {
+    font-size: large;
+    display: inline-block;
+    padding: 8px;
+    color:white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: rgb(255, 63, 4)}
