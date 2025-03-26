@@ -77,11 +77,17 @@ table {
     width: 100%;
   }
   
-  th, td {
+td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
   }
-  
+
+th{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
   tr:hover {background-color: rgb(255, 63, 4);
   }
+ 
