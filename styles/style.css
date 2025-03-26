@@ -5,20 +5,21 @@ h2 {
 }
 
 h1 {
-    font-size:xx-large;
+    font-size: xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(255, 63, 4);
 
 }
 
-h2{
+h2 {
     font-size: x-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(255, 63, 4);
 }
 
 h3 {
-    font-size: large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ff3f04;
 }
 
@@ -45,25 +46,42 @@ ul {
 td {
     font-family: monospace;
 }
-#navbar{
-    list-style-type:none;
+
+#navbar {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #805142;
-  }
-  
-  li{
+}
+
+#navbar li {
     float: left;
-  }
-  
-  li a {
+}
+
+#navbar li a {
     font-size: large;
     display: inline-block;
     padding: 8px;
-    color:white;
+    color: white;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: rgb(255, 63, 4);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
   }
-  li a:hover {
-    background-color: rgb(255, 63, 4)}
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {background-color: rgb(255, 63, 4);
+  }
