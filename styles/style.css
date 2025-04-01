@@ -1,14 +1,11 @@
-h2 {
-    font-size: x-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 63, 4);
+body {
+    background-color: floralwhite
 }
 
 h1 {
     font-size: xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(255, 63, 4);
-
 }
 
 h2 {
@@ -69,6 +66,11 @@ td {
     text-decoration: none;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
 #navbar li a:hover {
     background-color: rgb(255, 63, 4);
 }
@@ -76,22 +78,25 @@ td {
 table {
     border-collapse: collapse;
     width: 100%;
-  }
-  
+}
+
 td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
-  }
+}
 
-th{
+th {
+    font-family: monospace;
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
-  tr:hover {background-color: rgb(255, 63, 4);
-  }
- 
+
+tr:hover {
+    background-color: rgb(255, 63, 4);
+}
+
 
 footer {
     padding: 10px;
@@ -101,5 +106,5 @@ footer {
 
 #footer-message {
     text-align: center;
-    
+
 }
