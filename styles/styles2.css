@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 h2 {
     font-size: x-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -97,9 +101,4 @@ footer {
     padding: 10px;
     background-color: #805142;
     color: white;
-}
-
-#footer-message {
-    text-align: center;
-    
 }
