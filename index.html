@@ -1,89 +1,100 @@
 <!DOCTYPE html>
-<html class="flex-container">
+<html>
+<div class="flex-container">
 
-<head>
-    <link href="./styles/style.css" rel="stylesheet">
-    <title>
-        Lab1
-    </title>
-</head>
+    <head>
+        <link href="./styles/style.css" rel="stylesheet">
+        <script src="./script/script.js"></script>
 
-<body>
-    <nav>
-        <ul id="navbar">
-            <li>
-                <a href="index.html">HOME</a>
-            </li>
-            <li>
-                <a href="#">DOGS</a>
-            </li>
-            <li>
-                <a href="#">ABOUT</a> 
-            </li>
-            <li>
-                <a href="#">FAQ</a> 
-            </li>
+        <title>
+            Lab1
+        </title>
+    </head>
 
-        </ul>
-    </nav>
-    <center>
-        <!--Will eventually add more pages to this nav bar-->
-        <h1>HAPPY PAWS ADOPTION</h1>
-        <div id="main">Find your FURever best friend today!</div>
+    <body>
+        <nav>
+            <ul id="navbar">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="#">DOGS</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+
+            </ul>
+        </nav>
+        <center>
+            <br>
+            <!--Will eventually add more pages to this nav bar-->
+            <img src="fp_logo.png" ; width="300" ; alt="happy paws logo">
+            <br>
+            <br>
+            <div id="main">Find your <span style="color:#E68049; font-weight:bold;">FUR</span>ever best friend today!
+            </div>
+            <br>
+            <img src="anoir-chafik-2_3c4dIFYFU-unsplash.jpg" width="600" ; alt="photo of dogs">
+
+            <p>
+                Learn about <span style="color:#E68049; font-weight:bold;">dog adoption</span> today. Follow the steps
+                below
+                to proceed with your adoption.
+            </p>
+
+            <button onclick="alert('Hello you clicked me')">Dog Merch</button>
+        </center>
         <br>
-        <img src="anoir-chafik-2_3c4dIFYFU-unsplash.jpg" width="600" ; alt="photo of dogs">
+        <h2>Adoption Process</h2>
+        <ol type="1">
+            <li>Fill out adoption form</li>
+            <li>Phone consultation</li>
+            <li>In person interview</li>
+            <li>Dog meet and greet</li>
+        </ol>
 
-        <p>
-            Learn about <span style="color:#E68049; font-weight:bold;">dog adoption</span> today. Follow the steps below
-            to proceed with your adoption.
-        </p>
-    </center>
+        <h2>Dogs Available</h2>
+        <table style="width:auto" ; border="1px solid black">
+            <tr>
+                <th>Name</th>
+                <th>Breed</th>
+                <th>Available or Pending</th>
+
+            </tr>
+            <tr>
+                <td>Coco</td>
+                <td>Golden</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>Lou</td>
+                <td>Shepard</td>
+                <td>Pending</td>
+            </tr>
+        </table>
+        <h3>FOSTER PARENT REQUIREMENTS</h3>
+        <ul>
+            <li>Any current animals need vaccinations</li>
+            <li>Must bring foster dog to vet appointments</li>
+            <li>Willing to keep foster dog for the entire duration - weeks to months</li>
+        </ul>
+
+
+    </body>
+
     <br>
-    <h2>Adoption Process</h2>
-    <ol type="1">
-        <li>Fill out adoption form</li>
-        <li>Phone consultation</li>
-        <li>In person interview</li>
-        <li>Dog meet and greet</li>
-    </ol>
+    <br>
 
-    <h2>Dogs Available</h2>
-    <table style="width:auto" ; border="1px solid black">
-        <tr>
-            <th>Name</th>
-            <th>Breed</th>
-            <th>Available or Pending</th>
+    <footer>
 
-        </tr>
-        <tr>
-            <td>Coco</td>
-            <td>Golden</td>
-            <td>Available</td>
-        </tr>
-        <tr>
-            <td>Lou</td>
-            <td>Shepard</td>
-            <td>Pending</td>
-        </tr>
-    </table>
-    <h3>FOSTER PARENT REQUIREMENTS</h3>
-    <ul>
-        <li>Any current animals need vaccinations</li>
-        <li>Must bring foster dog to vet appointments</li>
-        <li>Willing to keep foster dog for the entire duration - weeks to months</li>
-    </ul>
+        <p id="footer-message"> Thank you for visiting</p>
 
 
-</body>
-
-<br>
-<br>
-
-<footer>
-
-    <p id="footer-message"> Thank you for visiting</p>
-
-    
-</footer>
+    </footer>
+</div>
 
 </html>

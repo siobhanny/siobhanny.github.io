@@ -1,17 +1,17 @@
 body {
-    background-color: floralwhite
+    background-color: #fffaf0
 }
 
 h1 {
     font-size: xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 63, 4);
+    color: #ff3f04;
 }
 
 h2 {
     font-size: x-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 63, 4);
+    color: #ff3f04;
 }
 
 h3 {
@@ -68,11 +68,12 @@ td {
 
 .flex-container {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+
 }
 
 #navbar li a:hover {
-    background-color: rgb(255, 63, 4);
+    background-color: #ff3f04;
 }
 
 table {
@@ -107,4 +108,12 @@ footer {
 #footer-message {
     text-align: center;
 
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    background-color:#805142;
+    color: white;
+    
 }
