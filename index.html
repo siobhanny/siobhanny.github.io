@@ -35,18 +35,20 @@
             <img src="fp_logo.png" ; width="300" ; alt="happy paws logo">
             <br>
             <br>
-            <div id="main">Find your <span style="color:#E68049; font-weight:bold;">FUR</span>ever best friend today!
-            </div>
+            <main id="main">Find your <span style="color:#E68049; font-weight:bold;">FUR</span>ever best friend today!
+            </main>
+            <button onclick="changeColor()">Change Colour</button>
             <br>
             <img src="anoir-chafik-2_3c4dIFYFU-unsplash.jpg" width="600" ; alt="photo of dogs">
+<br>
+<br>
 
-            <p>
+            <div id="justdiv" onmouseover="changeColor()" onmouseleave="resetColor()">
                 Learn about <span style="color:#E68049; font-weight:bold;">dog adoption</span> today. Follow the steps
-                below
-                to proceed with your adoption.
-            </p>
+                below to proceed with your adoption.
+            </div>
 
-            <button onclick="alert('Hello you clicked me')">Dog Merch</button>
+            <button onclick="showMessage()">Dog Merch</button>
         </center>
         <br>
         <h2>Adoption Process</h2>
@@ -56,7 +58,7 @@
             <li>In person interview</li>
             <li>Dog meet and greet</li>
         </ol>
-
+        <button>Adopt</button>
         <h2>Dogs Available</h2>
         <table style="width:max-content" ; border="1px solid black">
             <tr>
@@ -76,6 +78,10 @@
                 <td>Pending</td>
             </tr>
         </table>
+        <button onclick="changeToPuppy()">Puppy</button>
+        <button onclick="changeToAdult()">Adult</button>
+        <img src="dog-3937719_1280.jpg" id="puppy" width="50%">
+    
         <h3>FOSTER PARENT REQUIREMENTS</h3>
         <ul>
             <li>Any current animals need vaccinations</li>

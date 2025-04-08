@@ -25,9 +25,18 @@ h3 {
 }
 
 #main {
+    color:black;
     font-family: monospace;
+    background-color: rgb(241, 217, 184);
+    width: 90%;
+    padding: 6px;
+    margin: 6px;
 }
 
+#justdiv {
+    color:black;
+    font-family: monospace;
+}
 p {
     font-family: monospace;
 }
@@ -111,8 +120,9 @@ footer {
 }
 
 button {
-    padding: 5px;
-    margin: 5px;
+    width: 30%;
+    padding: 6px;
+    margin: 6px;
     background-color:#805142;
     color: white;
     
