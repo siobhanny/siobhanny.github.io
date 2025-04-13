@@ -6,7 +6,6 @@ function showMessage() {
     }
 }
 
-
 function changeColor() {
     document.getElementById("main").style.color = "orange";
     document.getElementById("main").style.fontSize = "large";
