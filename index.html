@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
-<div class="flex-container">
 
-    <head>
-        <link href="./styles/style.css" rel="stylesheet">
-        <script src="./script/script.js"></script>
+<head>
+    <link href="./styles/style.css" rel="stylesheet">
 
-        <title>
-            Lab1
-        </title>
-    </head>
+    <title>
+        Lab1
+    </title>
+</head>
 
-    <body>
+<body>
+    <div class="flex-container">
         <nav>
             <ul id="navbar">
                 <li>
@@ -32,23 +31,26 @@
         <center>
             <br>
             <!--Will eventually add more pages to this nav bar-->
-            <img src="fp_logo.png" ; width="300" ; alt="happy paws logo">
-            <br>
+            <img src="fp_logo.png" width="300" alt="happy paws logo">
             <br>
             <main id="main">Find your <span style="color:#E68049; font-weight:bold;">FUR</span>ever best friend today!
             </main>
-            <button onclick="changeColor()">Change Colour</button>
+            <button onclick="changeColor()">Click Me</button>
             <br>
-            <img src="anoir-chafik-2_3c4dIFYFU-unsplash.jpg" width="600" ; alt="photo of dogs">
-<br>
-<br>
+            <img src="anoir-chafik-2_3c4dIFYFU-unsplash.jpg" class="responsive" ; alt="photo of dogs">
+            <br>
+            <br>
 
             <div id="justdiv" onmouseover="changeColor()" onmouseleave="resetColor()">
                 Learn about <span style="color:#E68049; font-weight:bold;">dog adoption</span> today. Follow the steps
                 below to proceed with your adoption.
             </div>
+            <br>
 
-            <button onclick="showMessage()">Dog Merch</button>
+            <div id="container"></div>
+            <button id="hoverButton" onclick="showMessage()">Dog Merch</button>
+
+
         </center>
         <br>
         <h2>Adoption Process</h2>
@@ -58,7 +60,7 @@
             <li>In person interview</li>
             <li>Dog meet and greet</li>
         </ol>
-        <button>Adopt</button>
+        <button onclick="showMany()">Adopt</button>
         <h2>Dogs Available</h2>
         <table style="width:max-content" ; border="1px solid black">
             <tr>
@@ -78,10 +80,13 @@
                 <td>Pending</td>
             </tr>
         </table>
+        <br>
+
+        <img src="https://cdn.pixabay.com/photo/2020/05/08/16/06/dog-5146351_1280.jpg" id="puppy" width="50%">
         <button onclick="changeToPuppy()">Puppy</button>
         <button onclick="changeToAdult()">Adult</button>
-        <img src="dog-3937719_1280.jpg" id="puppy" width="50%">
-    
+
+
         <h3>FOSTER PARENT REQUIREMENTS</h3>
         <ul>
             <li>Any current animals need vaccinations</li>
@@ -89,18 +94,17 @@
             <li>Willing to keep foster dog for the entire duration - weeks to months</li>
         </ul>
 
+    </div>
+    <script src="./script/script.js"></script>
+</body>
 
-    </body>
+<br>
+<br>
 
-    <br>
-    <br>
-
-    <footer>
-
-        <p id="footer-message"> Thank you for visiting</p>
-
-
-    </footer>
+<button onclick="topFunction()" id="arrowBtn" title="Go to top">Top</button>
+<footer>
+    <p id="footer-message"> Thank you for visiting</p>
+</footer>
 </div>
 
 </html>
